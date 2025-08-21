@@ -1,0 +1,6 @@
+[flake8]
+max-line-length = 88
+extend-ignore = E203
+select = E9,F63,F7,F82,C,E,F,W
+max-complexity = 18
+exclude = .git,__pycache__,build,dist,.venv,.mypy_cache,.pytest_cache
